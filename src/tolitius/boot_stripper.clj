@@ -22,8 +22,8 @@
 
 (deftask strip-deps-attr
   "strips out an attribute (optionally identified by a value) from all the dependencies"
-  [a attr ATTR kw "name of the attribute (i.e. \"classifier\") to strip out"
-   v value VALUE edn "optional value of the attribute to strip out"]
+  [a attr ATTR kw "the name of the attribute (i.e. \"classifier\") to strip out"
+   v value VALUE edn "the optional value of the attribute to strip out"]
 
   (when-not attr
     (boot.util/fail "The -a/--attr option is required!\n") (*usage*))

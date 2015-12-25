@@ -49,8 +49,8 @@ strips out an attribute (optionally identified by a value) from all the dependen
 
 Options:
   -h, --help         Print this help info.
-  -a, --attr ATTR    Set name of the attribute (i.e. "classifier") to strip out to ATTR.
-  -v, --value VALUE  Set optional value of the attribute to strip out to VALUE.
+  -a, --attr ATTR    Set the name of the attribute (i.e. "classifier") to strip out to ATTR.
+  -v, --value VALUE  Set the optional value of the attribute to strip out to VALUE.
 ```
 
 ## License

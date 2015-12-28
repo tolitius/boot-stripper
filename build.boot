@@ -24,7 +24,7 @@
        :version     +version+
        :description "stripping things from filesets, tasks and env"
        :url         "https://github.com/tolitius/boot-stripper"
-       :scm         {:url "https://github.com/tolitius/mount"}
+       :scm         {:url "https://github.com/tolitius/boot-stripper"}
        :license     {"Eclipse Public License"
                      "http://www.eclipse.org/legal/epl-v10.html"}})
 
